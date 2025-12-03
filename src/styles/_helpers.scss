@@ -1,0 +1,92 @@
+@use "variables" as *;
+
+.bg-black-opaque {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(8px);
+}
+.full-section {
+  min-height: 92vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-hero {
+  background-image: url("https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1600&auto=format&fit=crop");
+}
+
+.section-performance {
+  background-image: url("https://images.unsplash.com/photo-1518552583032-3f66f2e4b5f8?q=80&w=1600&auto=format&fit=crop");
+}
+
+.section-reliability {
+  background-image: url("https://images.unsplash.com/photo-1549921296-3b4a6b382117?q=80&w=1600&auto=format&fit=crop");
+}
+
+.text-gold {
+  color: $gold !important;
+}
+
+.btn-gold {
+  border-color: $gold !important;
+  color: $gold !important;
+
+  &:hover,
+  &:focus {
+    background-color: $gold !important;
+    color: $black !important;
+  }
+}
+
+.object-cover {
+  object-fit: cover;
+  height: 260px;
+}
+
+.card-hover-scale {
+  transition: transform $transition-medium, box-shadow $transition-medium;
+  &:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: $shadow-soft;
+  }
+}
+
+.card-title-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform $transition-medium, opacity $transition-medium;
+}
+
+.card-hover-scale:hover .card-title-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeIn $transition-medium forwards;
+}
+
+.fade-in-delayed {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeIn $transition-medium 200ms forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

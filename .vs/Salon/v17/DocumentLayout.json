@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ModelDetails.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ModelDetails.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ScrollToTop.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ScrollToTop.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\CarCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CarCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_helpers.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\_helpers.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Models.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Models.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\HeroCarousel.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\HeroCarousel.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ContactForm.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ContactForm.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\About.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\About.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\ModelDetailsPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ModelDetailsPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\types\\car.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\types\\car.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\utils\\format.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\format.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\data\\cars.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\cars.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScrollToTop.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ScrollToTop.tsx",
+              "RelativeDocumentMoniker": "src\\components\\ScrollToTop.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ScrollToTop.tsx",
+              "RelativeToolTip": "src\\components\\ScrollToTop.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-03T18:57:19.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-02T20:33:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.scss",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\main.scss",
+              "RelativeDocumentMoniker": "src\\styles\\main.scss",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\main.scss",
+              "RelativeToolTip": "src\\styles\\main.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2025-12-02T20:33:24.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_helpers.scss",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_helpers.scss",
+              "RelativeDocumentMoniker": "src\\styles\\_helpers.scss",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_helpers.scss",
+              "RelativeToolTip": "src\\styles\\_helpers.scss",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2025-12-02T20:33:20.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_variables.scss",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_variables.scss",
+              "RelativeDocumentMoniker": "src\\styles\\_variables.scss",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\styles\\_variables.scss",
+              "RelativeToolTip": "src\\styles\\_variables.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2025-12-02T20:33:17.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "cars.ts",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\data\\cars.ts",
+              "RelativeDocumentMoniker": "src\\data\\cars.ts",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\data\\cars.ts",
+              "RelativeToolTip": "src\\data\\cars.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:58.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "format.ts",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\utils\\format.ts",
+              "RelativeDocumentMoniker": "src\\utils\\format.ts",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\utils\\format.ts",
+              "RelativeToolTip": "src\\utils\\format.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:52.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "car.ts",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\types\\car.ts",
+              "RelativeDocumentMoniker": "src\\types\\car.ts",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\types\\car.ts",
+              "RelativeToolTip": "src\\types\\car.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:46.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Contact.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\Contact.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Contact.tsx",
+              "RelativeToolTip": "src\\pages\\Contact.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:40.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ModelDetailsPage.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\ModelDetailsPage.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\ModelDetailsPage.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\ModelDetailsPage.tsx",
+              "RelativeToolTip": "src\\pages\\ModelDetailsPage.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:35.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Models.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Models.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\Models.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Models.tsx",
+              "RelativeToolTip": "src\\pages\\Models.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:30.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "About.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\About.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\About.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\About.tsx",
+              "RelativeToolTip": "src\\pages\\About.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:25.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Home.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\pages\\Home.tsx",
+              "RelativeToolTip": "src\\pages\\Home.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:08.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactForm.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ContactForm.tsx",
+              "RelativeDocumentMoniker": "src\\components\\ContactForm.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ContactForm.tsx",
+              "RelativeToolTip": "src\\components\\ContactForm.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:32:03.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelDetails.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ModelDetails.tsx",
+              "RelativeDocumentMoniker": "src\\components\\ModelDetails.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\ModelDetails.tsx*",
+              "RelativeToolTip": "src\\components\\ModelDetails.tsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:31:57.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarCard.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\CarCard.tsx",
+              "RelativeDocumentMoniker": "src\\components\\CarCard.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\CarCard.tsx",
+              "RelativeToolTip": "src\\components\\CarCard.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:31:49.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HeroCarousel.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\HeroCarousel.tsx",
+              "RelativeDocumentMoniker": "src\\components\\HeroCarousel.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\HeroCarousel.tsx",
+              "RelativeToolTip": "src\\components\\HeroCarousel.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:31:40.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Footer.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Footer.tsx",
+              "RelativeDocumentMoniker": "src\\components\\Footer.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Footer.tsx",
+              "RelativeToolTip": "src\\components\\Footer.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:31:34.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Header.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Header.tsx",
+              "RelativeDocumentMoniker": "src\\components\\Header.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\components\\Header.tsx",
+              "RelativeToolTip": "src\\components\\Header.tsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:31:02.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\App.tsx",
+              "RelativeDocumentMoniker": "src\\App.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\App.tsx*",
+              "RelativeToolTip": "src\\App.tsx*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:30:43.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.tsx",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\main.tsx",
+              "RelativeDocumentMoniker": "src\\main.tsx",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\Salon\\Salon\\src\\main.tsx",
+              "RelativeToolTip": "src\\main.tsx",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-02T20:30:21.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
