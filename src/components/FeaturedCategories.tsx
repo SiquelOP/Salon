@@ -21,7 +21,7 @@ const categories = [
     description:
       "Kompaktowa praktyczność i wyjątkowa wydajność. Idealni towarzysze życia miejskiego z inteligentną przestrzenią i łatwą manewrowością.",
     cars: cars.slice(4, 6),
-    stats: { luksus: 55, moc: 60, ekonomia: 90 },
+    stats: { luksus: 50, moc: 45, ekonomia: 90 },
   },
 ];
 
