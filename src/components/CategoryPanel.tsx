@@ -7,6 +7,7 @@ type Props = {
   title: string;
   description: string;
   cars: Car[];
+  stats?: { luksus: number; moc: number; ekonomia: number };
   reverse?: boolean;
 };
 
@@ -14,6 +15,7 @@ const CategoryPanel = ({
   title,
   description,
   cars,
+  stats,
   reverse = false,
 }: Props) => {
   const [, setActive] = useState(0);
@@ -55,9 +57,37 @@ const CategoryPanel = ({
         <div className="category-content">
           <h2 className="display-4 fw-bold mb-3 text-uppercase">{title}</h2>
           <p className="lead mb-4">{description}</p>
+          {stats && (
+            <div className="category-stats mt-3">
+              <StatBar label="Luksus" value={stats.luksus} />
+              <StatBar label="Moc" value={stats.moc} />
+              <StatBar label="Ekonomia" value={stats.ekonomia} />
+            </div>
+          )}
         </div>
       </div>
     </section>
+  );
+};
+
+const StatBar = ({ label, value }: { label: string; value: number }) => {
+  const clamped = Math.max(0, Math.min(100, value));
+  return (
+    <div className="stat-row mb-2">
+      <div className="d-flex justify-content-between align-items-end mb-1">
+        <span className="stat-label">{label}</span>
+        <span className="stat-value">{clamped}%</span>
+      </div>
+      <div className="stat-track">
+        <motion.div
+          className="stat-fill"
+          initial={{ width: 0 }}
+          whileInView={{ width: `${clamped}%` }}
+          viewport={{ once: true, amount: 0.4 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+        />
+      </div>
+    </div>
   );
 };
 

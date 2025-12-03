@@ -125,3 +125,26 @@ img.rounded {
     height: 50vh;
   }
 }
+
+/* Category stats */
+.category-stats {
+  .stat-label {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .stat-value {
+    color: $gray;
+  }
+  .stat-track {
+    width: 100%;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .stat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, $gold, lighten($gold, 10%));
+    border-radius: 999px;
+  }
+}
