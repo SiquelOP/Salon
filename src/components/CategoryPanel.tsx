@@ -1,24 +1,28 @@
 import { motion } from "framer-motion";
 import { Carousel } from "react-bootstrap";
 import { useState } from "react";
-import type { Car } from "../types/car";
-
-type Props = {
-  title: string;
-  description: string;
-  cars: Car[];
-  stats?: { luksus: number; moc: number; ekonomia: number };
-  reverse?: boolean;
-};
+import { Link } from "react-router-dom";
+import type { Props } from "../types/carProps";
 
 const CategoryPanel = ({
   title,
   description,
-  cars,
+  featuredCars,
   stats,
+  categoryImage,
+  path,
+  adj,
   reverse = false,
 }: Props) => {
   const [, setActive] = useState(0);
+
+  const carouselItems = categoryImage
+    ? [
+        { id: "category", image: categoryImage, name: title, isCategory: true },
+        ...featuredCars,
+      ]
+    : featuredCars;
+
   return (
     <section className={`category-section ${reverse ? "reverse" : ""}`}>
       <div className="container d-grid category-grid">
@@ -37,7 +41,7 @@ const CategoryPanel = ({
               controls={false}
               onSelect={(i) => setActive(i)}
             >
-              {cars.map((c) => (
+              {carouselItems.map((c: any) => (
                 <Carousel.Item key={c.id}>
                   <img
                     className="category-image rounded shadow"
@@ -62,6 +66,13 @@ const CategoryPanel = ({
               <StatBar label="Luksus" value={stats.luksus} />
               <StatBar label="Moc" value={stats.moc} />
               <StatBar label="Ekonomia" value={stats.ekonomia} />
+            </div>
+          )}
+          {path && (
+            <div className="mt-4">
+              <Link to={path} className="btn btn-gold">
+                Zobacz {adj} modele →
+              </Link>
             </div>
           )}
         </div>

@@ -12,4 +12,5 @@ export type Car = {
   topSpeed: number; 
   transmission: string;
   drivetrain: string;
+  category: number;
 };

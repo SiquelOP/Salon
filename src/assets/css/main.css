@@ -157,9 +157,63 @@ img.rounded {
   border-color: #c9a227;
 }
 
+/* Models page */
+.models-page {
+  padding-top: 52px;
+}
+
+.models-hero,
+.category-hero {
+  background: linear-gradient(135deg, rgba(201, 162, 39, 0.1), transparent);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.category-card {
+  overflow: hidden;
+  transition: transform 400ms ease, box-shadow 400ms ease;
+}
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.category-card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.category-card-img-wrapper .category-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+  transition: background 400ms ease;
+}
+.category-card-img-wrapper:hover .category-overlay {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.category-page {
+  padding-top: 80px;
+}
+
+.spec-item {
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.btn-gold-active {
+  background-color: #c9a227 !important;
+  color: #0b0b0b !important;
+  border-color: #c9a227 !important;
+}
+
 /* Featured categories sections */
 .categories {
   width: 100%;
+  padding-top: 58px;
 }
 
 .category-section {

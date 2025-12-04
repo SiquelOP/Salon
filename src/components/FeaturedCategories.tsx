@@ -1,40 +1,21 @@
 import CategoryPanel from "./CategoryPanel";
-import { cars } from "../data/cars";
-
-const categories = [
-  {
-    title: "Luksus",
-    description:
-      "Ręcznie wykonany komfort, materiały premium i spokojne wyrafinowanie. Odkryj nasze flagowe luksusowe pojazdy zaprojektowane dla bezwysiłkowych podróży.",
-    cars: cars.slice(0, 2),
-    stats: { luksus: 95, moc: 75, ekonomia: 45 },
-  },
-  {
-    title: "Sport",
-    description:
-      "Precyzyjne inżynieria i dynamiczne osiągi. Odkryj samochody stworzone do prędkości, zwinności i angażujących wrażeń z jazdy.",
-    cars: cars.slice(2, 4),
-    stats: { luksus: 70, moc: 95, ekonomia: 30 },
-  },
-  {
-    title: "Miasto",
-    description:
-      "Kompaktowa praktyczność i wyjątkowa wydajność. Idealni towarzysze życia miejskiego z inteligentną przestrzenią i łatwą manewrowością.",
-    cars: cars.slice(4, 6),
-    stats: { luksus: 50, moc: 45, ekonomia: 90 },
-  },
-];
+import { categories } from "../data/categories";
 
 const FeaturedCategories = () => {
+  const list = Object.values(categories);
   return (
     <div className="categories" id="featured">
-      {categories.map((item, idx) => (
+      {list.map((item, idx) => (
         <CategoryPanel
           key={item.title}
+          id={item.id}
           title={item.title}
           description={item.description}
-          cars={item.cars}
+          featuredCars={item.featuredCars}
           stats={item.stats}
+          categoryImage={item.categoryImage}
+          path={item.path}
+          adj={item.adj}
           reverse={idx % 2 === 1}
         />
       ))}
