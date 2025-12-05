@@ -16,12 +16,17 @@ const CategoryPanel = ({
 }: Props) => {
   const [, setActive] = useState(0);
 
-  const carouselItems = categoryImage
+  type CarouselItem = { id: string; image: string; name: string };
+  const carouselItems: CarouselItem[] = categoryImage
     ? [
-        { id: "category", image: categoryImage, name: title, isCategory: true },
-        ...featuredCars,
+        { id: "category", image: categoryImage, name: title },
+        ...featuredCars.map((c) => ({
+          id: c.id,
+          image: c.image,
+          name: c.name,
+        })),
       ]
-    : featuredCars;
+    : featuredCars.map((c) => ({ id: c.id, image: c.image, name: c.name }));
 
   return (
     <section className={`category-section ${reverse ? "reverse" : ""}`}>
@@ -41,7 +46,7 @@ const CategoryPanel = ({
               controls={false}
               onSelect={(i) => setActive(i)}
             >
-              {carouselItems.map((c: any) => (
+              {carouselItems.map((c) => (
                 <Carousel.Item key={c.id}>
                   <img
                     className="category-image rounded shadow"

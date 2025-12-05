@@ -7,7 +7,7 @@ export const cars: Car[] = [
     subtitle: "Szczyt luksusu",
     description:
       "Phandom redefiniuje luksus w motoryzacji, oferując niezrównaną wygodę i elegancję.",
-    image: "https://images.unsplash.com/photo-1563720360172-67b8f3dce741?q=80&w=1600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1624804269473-828dcc30a210?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 450000,
     engine: "6.75L Twin-Turbo V12",
     power: 563,
@@ -43,7 +43,7 @@ export const cars: Car[] = [
       "S-Klasa łączy najnowsze technologie z legendarnym komfortem i prestiżem marki Mercedes-Benz.",
     image: "https://images.unsplash.com/photo-1610099610040-ab19f3a5ec35?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 115000,
-    engine: "3.0L Inline-6 Turbo + EQ Boost",
+    engine: "3.0L Inline-6 Turbo + EQ",
     power: 429,
     torque: 520,
     acceleration: 4.9,

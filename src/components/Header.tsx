@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const scrollToId = (id: string) => {
@@ -9,6 +9,8 @@ const scrollToId = (id: string) => {
 };
 
 const Header = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const navItems = [
     { id: "hero", label: "Home", path: "/" },
     { id: "featured", label: "Featured", path: "/#featured" },
@@ -23,7 +25,17 @@ const Header = () => {
     } else if (item.path.startsWith("/#")) {
       e.preventDefault();
       const id = item.path.substring(2);
-      scrollToId(id);
+
+      // If not on home page, navigate to home first
+      if (location.pathname !== "/") {
+        navigate("/");
+        // Wait for hero animation to complete (2.8s) + small buffer, then scroll
+        setTimeout(() => {
+          scrollToId(id);
+        }, 2900);
+      } else {
+        scrollToId(id);
+      }
     }
   };
 

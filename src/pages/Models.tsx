@@ -8,12 +8,15 @@ const Models = () => {
   return (
     <div className="models-page">
       <motion.section
-        className="models-hero"
+        // className="models-hero"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <div className="container py-5">
+          <Link to="/" className="btn btn-outline-light">
+            ← Powrót do strony głównej
+          </Link>
           <h1 className="display-3 fw-bold mb-3">Nasze Modele</h1>
           <p className="lead text-muted">
             Wybierz kategorię, aby odkryć naszą kolekcję pojazdów

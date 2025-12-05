@@ -7,7 +7,7 @@ export const categories: {luxury: Props, sport: Props, city: Props} = {
     title: "Luksus",
     adj: "luksusowe",
     description:
-      "Ręcznie wykonany komfort, materiały premium i spokojne wyrafinowanie. Odkryj nasze flagowe luksusowe pojazdy zaprojektowane dla bezwysiłkowych podróży.",
+      "Ręcznie wykonany komfort, materiały premium i spokojne wyrafinowanie. Odkryj nasze flagowe luksusowe pojazdy.",
     featuredCars: cars.filter((car) => car.category === 1).slice(0, 2),
     stats: { luksus: 95, moc: 75, ekonomia: 45 },
     categoryImage:

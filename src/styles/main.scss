@@ -64,13 +64,7 @@ main {
   overflow: hidden;
 }
 
-img.rounded {
-  border-radius: $radius !important;
-}
-
-.map-wrapper {
-  border-radius: $radius;
-}
+/* Removed unused img.rounded and .map-wrapper */
 
 .form-control {
   &:focus {
@@ -84,11 +78,7 @@ img.rounded {
   padding-top: 56px;
 }
 
-.models-hero,
-.category-hero {
-  background: linear-gradient(135deg, rgba(201, 162, 39, 0.1), transparent);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
+/* Removed unused .models-hero and .category-hero */
 
 .category-card {
   overflow: hidden;
@@ -128,7 +118,7 @@ img.rounded {
 }
 
 .category-page {
-  padding-top: 80px;
+  padding-top: 56px;
 }
 
 /* Car cards */
@@ -189,6 +179,168 @@ img.rounded {
   background-color: $gold !important;
   color: $black !important;
   border-color: $gold !important;
+}
+
+/* Car detail page */
+.car-detail-page {
+  padding-top: 56px;
+}
+
+.car-detail-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.car-detail-specs-grid {
+  .spec-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: $radius;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all $transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(201, 162, 39, 0.3);
+      transform: translateX(4px);
+    }
+
+    .spec-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(201, 162, 39, 0.1);
+      border-radius: 8px;
+      color: $gold;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+/* About section */
+.about-section {
+  background: linear-gradient(180deg, $black 0%, $dark 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: $radius;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all $transition-medium;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(201, 162, 39, 0.3);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(201, 162, 39, 0.15);
+  }
+
+  .stat-icon {
+    font-size: 2.5rem;
+    color: $gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.about-features {
+  .feature-item {
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(201, 162, 39, 0.1);
+      border-radius: 10px;
+      color: $gold;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+/* Contact section */
+.contact-section {
+  background: linear-gradient(180deg, $dark 0%, $black 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: $radius;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all $transition-medium;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(201, 162, 39, 0.3);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(201, 162, 39, 0.15);
+  }
+
+  .contact-icon {
+    font-size: 2.5rem;
+    color: $gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact-form-wrapper {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: $radius;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  .form-control {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: $white;
+    border-radius: 8px;
+
+    &:focus {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: $gold;
+      color: $white;
+      box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.25);
+    }
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .form-label {
+    color: $white;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+}
+
+.contact-map-wrapper {
+  height: 100%;
+  min-height: 400px;
+
+  iframe {
+    filter: brightness(0.8) contrast(1.1) saturate(0.9);
+  }
 }
 
 /* Featured categories sections */
@@ -268,5 +420,171 @@ img.rounded {
       color.adjust($gold, $lightness: 10%)
     );
     border-radius: 999px;
+  }
+}
+
+/* Admin Page */
+.admin-page {
+  background: $dark;
+
+  .nav-tabs {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+    .nav-link {
+      color: $gray;
+      background: transparent;
+      border: none;
+      padding: 1rem 2rem;
+      font-weight: 500;
+      transition: all $transition-medium;
+
+      &:hover {
+        color: $white;
+      }
+
+      &.active {
+        color: $gold;
+        background: transparent;
+        border-bottom: 2px solid $gold;
+        margin-bottom: -2px;
+      }
+    }
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .table {
+    color: $white;
+
+    thead th {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      color: $gray;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      transition: background $transition-medium;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.03);
+      }
+    }
+
+    td {
+      vertical-align: middle;
+      padding: 1rem;
+    }
+  }
+
+  .modal-content {
+    background: $dark;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    .modal-header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .modal-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .form-control,
+  .form-select {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: $white;
+
+    &:focus {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: $gold;
+      color: $white;
+      box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+    }
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .form-select option {
+    background: $dark;
+    color: $white;
+  }
+
+  .btn-primary {
+    background: $gold;
+    border-color: $gold;
+    color: $dark;
+
+    &:hover {
+      background: color.adjust($gold, $lightness: -10%);
+      border-color: color.adjust($gold, $lightness: -10%);
+    }
+  }
+
+  .badge {
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
+  }
+}
+
+/* Test Drive Modal */
+.car-detail-page {
+  .modal-content {
+    background: rgba(11, 11, 11, 0.98);
+    border: 1px solid rgba(201, 162, 39, 0.2);
+
+    .modal-header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+    }
+
+    .modal-body {
+      padding: 2rem 1.5rem;
+    }
+
+    .modal-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+    }
+
+    .form-control,
+    .form-select {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: $white;
+      padding: 0.75rem 1rem;
+
+      &:focus {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: $gold;
+        color: $white;
+        box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+      }
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+      }
+    }
+
+    .form-select option {
+      background: $dark;
+      color: $white;
+    }
+
+    .form-label {
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
   }
 }

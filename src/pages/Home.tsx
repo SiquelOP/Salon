@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Hero from "../components/Hero";
 import FeaturedCategories from "../components/FeaturedCategories";
+import About from "../components/About";
+import Contact from "../components/Contact";
 
 function HomePage() {
   useEffect(() => {
@@ -30,6 +32,8 @@ function HomePage() {
         transition={{ duration: 1, delay: 2.5 }}
       >
         <FeaturedCategories />
+        <About />
+        <Contact />
       </motion.div>
     </>
   );
